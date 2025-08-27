@@ -4,7 +4,7 @@ assignment 7 for devops course
 # basic workflow
 this worklow uses ubuntu-latest runner, 
 steps: 
-checking out the code
+checking out the code \n
 print a simple message
 setting up python version 3.9
 install dependencies
