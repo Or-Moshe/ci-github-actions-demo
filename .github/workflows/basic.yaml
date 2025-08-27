@@ -1,9 +1,6 @@
 name: basic
 
-on: 
-  push:
-    branches:
-      - main
+
       
   workflow_dispatch:
 
