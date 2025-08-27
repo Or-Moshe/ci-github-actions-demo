@@ -1,0 +1,16 @@
+name: cron scheduling
+
+on: 
+  schedule:  0 0 * * *
+
+  jobs:
+    scheduler_job:
+      name: first job
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v3
+        - name: print message
+          run: |
+            echo "Scheduled build completed successfully!"
+
