@@ -20,6 +20,7 @@ steps:
 
 # matrix workflow
 this worklow uses ubuntu-latest runner and a matrix strategy to execute to action for each python versions: [3.7, 3.8, 3.9, 3.10] and os: [ubuntu-latest, windows-latest]
+
 for each job:
 steps: 
 
